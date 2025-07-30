@@ -17,7 +17,6 @@ function Tasks(props) {
             {task.title}
           </button>
 
-          {/* ✅ Agora o botão leva para a TaskPage */}
           <button
             onClick={() => navigate(`/task/${task.id}`)}
             className="bg-slate-400 p-2 rounded-md text-white"
